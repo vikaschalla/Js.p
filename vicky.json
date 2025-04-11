@@ -1,0 +1,236 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "T-Shirt",
+      "description": "Comfortable cotton t-shirt",
+      "image":"https://maxzoneclothing.com/cdn/shop/files/66.jpg?v=1739513037&width=990",
+      "price": 1999,
+      "likes": 15
+    },
+  
+    {
+      "id": 2,
+      "title": "Sneakers",
+      "description": "Stylish running shoes",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CQSVbJ3A2uBynUaP3h1XhgHaE8%26pid%3DApi&sp=1744391621Ta7a47cfdfda7ca893e835bb050dc39f6c7d9061655473331dbf96c7b4af5d0d9",
+      "price": 599,
+      "likes": 22
+    },
+    {
+      "id": 3,
+      "title": "Jeans",
+      "description": "Classic blue denim jeans",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ZzqxsJqXbaWgLkGI6aJrOgHaJ5%26pid%3DApi&sp=1744391128T2bb96d19054d63d88bc4cf300512826a401b10cdcb75213ad6d0b71fe2547941",
+      "price": 399,
+      "likes": 18
+    },
+    {
+      "id": 5,
+      "title": "Cap",
+      "description": "Cool baseball cap",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.y8r2fP3-QoH2knLHlhmIvgHaGB%26cb%3Diwc%26pid%3DApi&sp=1744391703T7e7fa96cdc22c7f11d1ab326c0e50095f28cf8a067e3e155cbd71b8158249092",
+      "price": 199,
+      "likes": 7
+    },
+    {
+      "id": 6,
+      "title": "dress",
+      "description": "Durable travel backpack",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=http%3A%2F%2Fwww.thefashionisto.com%2Fwp-content%2Fuploads%2F2016%2F05%2FZara-Men-2016-Summer-Tailoring-006-800x1060.jpg&sp=1744391128Te5b289e656c60044efb33980c611dae00200c68985a731aa0c314f6a7826d807",
+      "price": 499,
+      "likes": 33
+    },
+    {
+      "id": 7,
+      "title": "couples dress",
+      "description": "Minimalist wristwatch",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.BEETu028OoHXbMjaNUfedwHaEo%26pid%3DApi&sp=1744391732Te999a686aaf5023569fb77fe113e207cd210efd3d8534ae72a4e8ba7add0cb7b",
+      "price": 999,
+      "likes": 45
+    },
+    {
+      "id": 8,
+      "title": "Dress",
+      "description": "UV-protective stylish shades",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftheadultman.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fmens-fashion-from-a-female-perspective-1.jpg&sp=1744391732T6386a87799a897abca68bb1b25a78dee04525a618338d70c5b5d997d6cd3ed0f",
+      "price": 249,
+      "likes": 29
+    },
+    {
+      "id": 9,
+      "title": "Sweater",
+      "description": "Wool knit sweater",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.i26SAgaRCjxKYvhGBgTxJwHaDt%26pid%3DApi&sp=1744391830T4c83b44d36c53a252144cd9ef34412e207faf5c56c0af13b3ed2d4cb107f21bf",
+      "price": 999,
+      "likes": 16
+    },
+    {
+      "id": 10,
+      "title": "Jacket",
+      "description": "Windbreaker outdoor jacket",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.8RWbw4WFPjNHDajj9m82EwHaIh%26pid%3DApi&sp=1744391882T64c4dbda23ebe98a1e4df3296c88e2f9c08608c1b409a8a1a1a203d9ffecf7c9",
+      "price": 699,
+      "likes": 25
+    },
+    {
+      "id": 11,
+      "title": "couples dress",
+      "description": "Pack of cotton socks",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.3SeYIkgagqzdIecej_spOgHaHa%26pid%3DApi&sp=1744391965T371bcce0074b8464963fb40193af7201e668c21b8802716d42ee152bb14fc559",
+      "price": 9999,
+      "likes": 5
+    },
+    {
+      "id": 12,
+      "title": "Beanie",
+      "description": "Knitted winter beanie",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FnTPKB4mpPWE%2Fmaxresdefault.jpg&sp=1744391965T7e3b711f0ae9554f6c861258d6f3b85a538aac91d8fdf6345438ce53032ffd6e",
+      "price": 199,
+      "likes": 8
+    },
+    {
+      "id": 13,
+      "title": "Gloves",
+      "description": "Thermal hand gloves",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F71%2F2e%2F5f%2F712e5fc4fcaaa76c95af008926a00014.jpg&sp=1744391882Te39af7fa288023fa6d0009a56ad00417911abb393fc38df356544c06b9006d30",
+      "price": 13.99,
+      "likes": 9
+    },
+    {
+      "id": 14,
+      "title": "dress",
+      "description": "dress for women",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.qYGQEJFEbAhn5B5SUpmB8gHaIh%26pid%3DApi&sp=1744392161T76ba2f29d2d3af8ee8e825296a7004868da35cc3606ee8224d84480ebe5ee607",
+      "price": 19.99,
+      "likes": 6
+    },
+    {
+      "id": 15,
+      "title": "formal dress",
+      "description": "formal",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Oxu3rrdwRo5ReuZ4b3pafQHaNK%26pid%3DApi&sp=1744392445T7d7418747f9a6d7cd1bbb7067bf5768577f249719f3fada0e60e453af883d104",
+      "price": 999,
+      "likes": 10
+    },
+    
+      {
+        "id": 31,
+        "title": "Abstract Earth Tones Case",
+        "description": "A modern abstract phone case featuring earthy tones, shapes, and line art.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.xBUTKnNM8iJZjb-nX8jGjgHaJh%26pid%3DApi&sp=1744395091Tcd2e3197a6165a432001ac07008f2879427dec91647c763cc93df78f30677797",
+        "price": 21.99
+      },
+      {
+        "id": 16,
+        "title": "Geometric Fade Phone Case",
+        "description": "Fading geometric patterns with subtle orange and black tones.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.bI80Xi3kRjDOCHm0uWhezwHaHa%26pid%3DApi&sp=1744394358Te0170fa6773e5deaf90563b8e373749e8ae3bbea97237dfa6cdcfc2936b0cf6f",
+        "price": 22.49
+      },
+      {
+        "id": 17,
+        "title": "Color Blocks Case",
+        "description": "Bold color blocks in red, orange, and tan with artistic flair.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DjdWw3to_xRaVWHZgjmj4QAAAA%26pid%3DApi&sp=1744394358T9c2c6680237c789bb8ca579617cc519681c91f0966f095a76b0f6c1e7eb181af",
+        "price": 20.00
+      },
+      {
+        "id": 18,
+        "title": "Face Sketch Abstract Case",
+        "description": "Minimalistic abstract line face sketch with modern art palette.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.IXYTfi4j_ba1f0PLSrumbAHaHa%26pid%3DApi&sp=1744394358T77745d4d121bbb26e7716e19321af19b2e1bf7d0ccabc1faab980400ef4915f4",
+        "price": 23.75
+      },
+      {
+        "id": 19,
+        "title": "Warm Minimal Case",
+        "description": "Aesthetic abstract minimal art in warm earthy hues.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qHk_F76bhXjkqK_alM1GXQAAAA%26pid%3DApi&sp=1744394358T39f86332c4db57c44b4fc5d911c550256aab344d38573207cb8abc2f6b3724ef",
+        "price": 18.99
+      },
+      {
+        "id": 20,
+        "title": "Soft Shapes Abstract Case",
+        "description": "Rounded abstract forms layered with organic patterns.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.U57bkhUPrdjj-REoE9eBaQHaJ4%26pid%3DApi&sp=1744395091Te804701e3fa7a4fbea2f79d7f7ce101ac9b0e12b0de92da710cfcef31ba8deb4",
+        "price": 21.00
+      },
+      {
+        "id": 21,
+        "title": "Retro Sunset Geometry Case",
+        "description": "Retro-inspired sunset and geometry mix with a vintage vibe.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Es2J27H93cVgWYZBaxKcagHaHa%26pid%3DApi&sp=1744395091T2adb28174416f03c585132ef46211c2df3036469b9951b8ffb6b470b969f7d86",
+        "price": 19.50
+      },
+      {
+        "id": 22,
+        "title": "Bold Minimal Art Case",
+        "description": "Strong color contrasts and clean lines for a bold look.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.DmNOLWW8pcgfHctBHY8lTgHaHa%26pid%3DApi&sp=1744395091T78d1a587912dea66ef32c77db0c61790ebdd2fe0e97ff690aede222d7a63a4a4",
+        "price": 199
+      },
+      {
+        "id": 23,
+        "title": "Terracotta Grid Case",
+        "description": "Terracotta shades over a soft geometric grid layout.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vHsypCakdhth5_SuFKtX7wHaGn%26pid%3DApi&sp=1744395091T8ea915230608ac2324954281497bc2694e9d7a5297ee8d2d076db13b86540c5e",
+        "price": 299
+      },
+      
+      {
+        "id": 24,
+        "title": "Neutral Tones Abstract Case",
+        "description": "A calming palette of neutrals in artistic brush strokes.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.A47xrzCi4PKH3fDbvEuhngHaIj%26pid%3DApi&sp=1744395091T69196f4f6e93dc05e3d7e6a238632fc0a6c5db5408a34cf6ef58ff5e48b522d2",
+        "price": 18.50
+      },
+      {
+        "id": 25,
+        "title": "Muted Color Patch Case",
+        "description": "Soft, muted color patches arranged in an abstract pattern.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.niyviVnoz91d5UoBGV47IAAAAA%26pid%3DApi&sp=1744395091T218629e2c9653fb993aec074ead285ad7d3b03bf69ea7ca0c629139a014ed412",
+        "price": 19.99
+      },
+      {
+        "id": 26,
+        "title": "Leafy Line Art Case",
+        "description": "Line-drawn leaves over blocks of rust and clay colors.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zsJWYnP5vzpBmwf2z5NPFAHaHa%26pid%3DApi&sp=1744395091T7ca31036259cd0718cc51c85b9d61b730b534714ea0a712a92eacffdae6a09b1",
+        "price": 21.25
+      },
+      {
+        "id": 27,
+        "title": "Artistic Fusion Case",
+        "description": "A blend of line sketches, abstract shapes, and warm tones.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.-jPNkDJm_BRl0ibG7Uhb_wDMEy%26pid%3DApi&sp=1744395091T8d473a4ae8282011417c956f775dc8e4116372a7a482da7ee48fe344b7b921c7",
+        "price": 22.99
+      },
+      {
+        "id": 28,
+        "title": "Desert Dream Case",
+        "description": "Abstract desert landscape inspiration with soft waves.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.15-EhpBRnzN0i6SCQstDIQHaJQ%26pid%3DApi&sp=1744395091T3936ce9060c3234dc64668e4b730260138aa42444a2478eb4e2d1cdbc6dc0300",
+        "price": 20.99
+      },
+      {
+        "id": 29,
+        "title": "Shapes & Lines Modern Case",
+        "description": "Black canvas covered in colorful modern shapes and squiggles.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qF8Nt2JX8-bU1lNZli9Y-wHaHa%26pid%3DApi&sp=1744395091T1ab8e0a895a0e9394403cd00643c9b348e8d39a1fd7f023fbcc25a397a4a5b9e",
+        "price": 24.50
+      },
+      {
+        "id": 30,
+        "title": "Elegant Doodles Case",
+        "description": "A smooth composition of elegant doodles and warm abstract shapes.",
+        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.S0vVJBDpui7BHqVx9_JFQwAAAA%26pid%3DApi&sp=1744395091Ta2b17ea01f5250d8cbfb39f7ce9818d0e13e68728395f097426210a17f35b6d1",
+        "price": 23.49
+      }
+    ]
+    
+     
+      
+  
+  
+}

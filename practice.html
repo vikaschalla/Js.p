@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <style>
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+      max-width: 300px;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <script>
+    // async function getDetails() {
+    
+    //     const response = await fetch("https://api.escuelajs.co/api/v1/products");
+    //     const data = await response.json();
+    //     console.log(data)
+
+    // }
+    // getDetails();
+
+    async function getDetails() {
+    try {
+        const response = await fetch("https://api.escuelajs.co/api/v1/products");
+        const data = await response.json();
+        
+        // Select the container where products will be displayed
+        const container = document.getElementById("product-container");
+
+        data.forEach(product => {
+            // Create a card for each product
+            const productCard = document.createElement("div");
+            productCard.classList.add("product-card");
+
+            // Create an image element
+            const img = document.createElement("img");
+            img.src = product.images[0];
+            img.alt = product.title;
+
+            // Create a title element
+            const title = document.createElement("h3");
+            title.textContent = product.title;
+
+            // Create a price element
+            const price = document.createElement("p");
+            price.textContent = `$${product.price}`;
+
+            // Append elements to the card
+            productCard.appendChild(img);
+            productCard.appendChild(title);
+            productCard.appendChild(price);
+
+            // Append the card to the container
+            container.appendChild(productCard);
+        });
+
+    } catch (error) {
+        console.error("Error fetching products:", error);
+    }
+}
+
+// Call the function
+getDetails();
+
+  </script>
+
+</body>
+</html>
+
+  

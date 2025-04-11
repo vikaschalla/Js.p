@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login / Sign Up</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #74ebd5, #9face6);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrapper {
+      background: white;
+      width: 380px;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .tab {
+      display: flex;
+      cursor: pointer;
+    }
+
+    .tab label {
+      flex: 1;
+      text-align: center;
+      padding: 16px;
+      background: #eee;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    #login:checked ~ .tab label[for="login"],
+    #signup:checked ~ .tab label[for="signup"] {
+      background: #ffffff;
+      color: #4b7bec;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    .form-container {
+      padding: 20px;
+    }
+
+    form {
+      display: none;
+      flex-direction: column;
+    }
+
+    #login:checked ~ .form-container .login-form,
+    #signup:checked ~ .form-container .signup-form {
+      display: flex;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    button {
+      padding: 12px;
+      margin-top: 10px;
+      border: none;
+      background-color: #4b7bec;
+      color: white;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #3867d6;
+    }
+
+    .form-container p {
+      font-size: 14px;
+      margin-top: 10px;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Toggle -->
+    <input type="radio" name="tab" id="signup" checked />
+    <input type="radio" name="tab" id="login" />
+
+    <div class="tab">
+      <label for="signup">Sign Up</label>
+      <label for="login">Login</label>
+    </div>
+
+    <div class="form-container">
+      <!-- Sign Up Form -->
+      <form class="signup-form">
+        <!-- <input type="text" placeholder="Full Name" required /> -->
+        <input class="email1" type="email" placeholder="Email" required />
+        <input class="password1"  type="password" placeholder="Password" required />
+        <button class="btn1">Sign Up</button>
+        <p>Already have an account? Click "Login"</p>
+      </form>
+
+      <!-- Login Form -->
+      <form class="login-form">
+        <input class="logemail2" type="email" placeholder="Email" required />
+        <input class="logpassword2" type="password" placeholder="Password" required />
+        <button class="btn2">Login</button>
+        <p>Don’t have an account? Click "Sign Up"</p>
+      </form>
+    </div>
+  </div>
+
+
+
+  
+  
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+        import { getAuth,createUserWithEmailAndPassword ,signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAJEmK9IjDen-0y05fGK6ol9Hl2O0ste_Q",
+          authDomain: "vickyart-469da.firebaseapp.com",
+          projectId: "vickyart-469da",
+          storageBucket: "vickyart-469da.firebasestorage.app",
+          messagingSenderId: "744365745309",
+          appId: "1:744365745309:web:9d3276e18b2b213666e074",
+          measurementId: "G-PJZQN5PQPS"
+        };
+      
+        // Initialize Firebase 
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        // button
+        var newbtn1=document.querySelector(".btn1")
+        var newbtn2=document.querySelector(".btn2")
+        newbtn1.addEventListener("click",fun1)
+        function fun1(event) {
+    event.preventDefault(); // Prevent form from submitting
+    let email = document.querySelector(".email1").value;
+    let password = document.querySelector(".password1").value;
+    console.log(email, password);
+
+createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    // Signed up 
+    const user = userCredential.user;
+    alert("Signup Sucessfully!");
+    // ...
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    alert(`Signup Failed: ${errorMessage}`);
+    // ..
+  });
+}
+
+
+        // button login
+       
+        var newbtn2=document.querySelector(".btn2")
+        newbtn2.addEventListener("click",fun2)
+        function fun2(event) {
+    event.preventDefault(); // Prevent form from submitting
+    let email = document.querySelector(".logemail2").value;
+    let password = document.querySelector(".logpassword2").value;
+    console.log(email, password);
+    signInWithEmailAndPassword(auth,email,password)
+        .then((userCredential)=>{
+            const user=userCredential.user;
+            alert("Login sucessfull");
+            window.location.href = "index.html";
+
+        })
+         .catch((error)=>{
+            const errorCode=error.code;
+            const errorMessage=error.message;
+            alert(`Login failed : ${errorMessage} `);
+
+         });
+
+        }
+
+
+      </script>
+</body>
+</html>

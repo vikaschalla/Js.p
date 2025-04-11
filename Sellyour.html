@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sell Your Art</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Fabstract-art-artistic-attractive-backdrop-background-bright-color-colors-colour-decor-decoration-design-graphic-illustration-image-motley-pattern-shape-texture-textured-wall-wallpaper-1563527.jpg&sp=1744309631Td713788488075740bd3625f78debbe1afa7ce23bbda8d4ecc46cfe729169b9d3");
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+    }
+    .form-container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    button {
+      background-color: #5c67f2;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #4b53db;
+    }
+    .my-div {
+  
+  background-size: 300px 200px;  /* Width and height of image inside the div */
+  background-repeat: no-repeat;
+  background-position: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Sell Your Art</h2>
+    <input type="text" id="title" placeholder="Art Title" required />
+    <input type="number" id="price" placeholder="Price ($)" required />
+    <textarea id="description" placeholder="Description" rows="3"></textarea>
+    <input type="text" id="imageUrl" placeholder="Image URL" />
+    <textarea id="prompt" placeholder="Describe your art or enter prompt" rows="3"></textarea>
+    <button onclick="submitArt()">Submit</button>
+  </div>
+
+  <script>
+    async function submitArt() {
+      const postData = {
+        title: document.getElementById('title').value,
+        price: parseFloat(document.getElementById('price').value),
+        description: document.getElementById('description').value,
+        imageUrl: document.getElementById('imageUrl').value,
+        prompt: document.getElementById('prompt').value
+      };
+
+      const response = await fetch('http://localhost:3000/products', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(postData)
+      });
+
+      const data = await response.json();
+      console.log('Art posted:', data);
+      alert("Your art has been submitted!");
+    }
+  </script>
+
+</body>
+</html>
+

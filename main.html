@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    .nav-links{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ShopEasy</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search products...">
+            <button onclick="searchProducts()">🔍</button>
+            <ul class="nav-links">
+                <li><a href="#">Sell your art</a></li>
+                <li><a href="#">login</a></li>
+                <li><a href="#">Sign up</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
+                <li class="cart">
+                    <a href="#">
+                        🛒 <span id="cart-count">0</span>
+                    </a>
+                </li>
+            </div>
+        </ul>
+    
+    </nav>
+
+    
+</body>
+</html>

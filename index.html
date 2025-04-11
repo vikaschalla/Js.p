@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redbubble Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+        }
+        .search {
+            flex-grow: 1;
+            margin: 0 15px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            background: #f8f8f8;
+            padding: 10px 0;
+        }
+        .categories a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #b18cf4;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+        .shop-deals {
+            background: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .discount-badge {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: yellow;
+            padding: 10px;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+        /* .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 220px;
+            font-family: Arial, sans-serif;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+        } */
+        /* #product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.product {
+    width: calc(33.33% - 40px); /* 3 per row with spacing */
+    /* box-sizing: borde    /* padding: 10px; */
+    #product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width:30vw; /* Increased width */
+    height: 80vh; /* Increased height */
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.product img {
+    width: 100%;
+    height:40vh; /* Increased height */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .cart-count {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">REDBUBBLE</div>
+            <input type="text" class="search" placeholder="Search products...">
+            <div class="nav-links">
+                <a href="Sellyour.html">Sell your art</a>
+                <a href="login.html">Login</a>
+                <a href="http://127.0.0.1:5500/login.html">Signup</a>
+                <a href="cart.html" class="cart">🛒</a>
+            </div>
+        </nav>
+        <div class="categories">
+            <a href="explore.html">Explore</a>
+            <a href="#">Clothing</a>
+            <a href="#">Stickers</a>
+            <a href="#">Phone Cases</a>
+            <a href="#">Wall Art</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Kids & Babies</a>
+            <a href="#">Accessories</a>
+            <a href="#">Stationery & Office</a>
+            <a href="#">Gifts</a>
+        </div>
+    </header>
+    
+    <div class="cart-count" id="cartCount">0</div>
+
+    <div id="product-list"></div>
+
+    <script>
+        let cart = [];
+
+        async function data() {
+            try {
+                let response = await fetch('http://localhost:3000/products');
+                let products = await response.json();
+                console.log(products);
+
+                products.forEach(product => {
+                    // Product container
+                    const productDiv = document.createElement("div");
+                    productDiv.classList.add("product");
+
+                    // Product title
+                    const title = document.createElement("h3");
+                    title.textContent = product.name;
+                    title.style.margin = "0 0 10px 0";
+                    productDiv.appendChild(title);
+
+                    // Product image
+                    const img = document.createElement("img");
+                    img.src = product.image;
+                    productDiv.appendChild(img);
+                    // img.style.width="30vw"
+                    // img.style.height="40vh"
+
+
+
+                    // Product price
+                    const price = document.createElement("p");
+                    price.textContent = `Price: ${product.price}`;
+                    price.style.fontWeight = "bold";
+                    price.style.margin = "10px 0 5px 0";
+                    productDiv.appendChild(price);
+
+                    // Product description
+                    const desc = document.createElement("p");
+                    desc.textContent = product.description;
+                    desc.style.fontSize = "14px";
+                    desc.style.color = "#555";
+                    productDiv.appendChild(desc);
+
+                    // Buttons for Add to Cart and Delete
+                    const buttonsDiv = document.createElement("div");
+                    buttonsDiv.classList.add("buttons");
+
+                    // Add to Cart button
+                       
+                       const addToCartBtn = document.createElement("button");
+                    addToCartBtn.textContent = "Add to Cart";
+                    addToCartBtn.onclick = () => addToCart(product);
+                    buttonsDiv.appendChild(addToCartBtn);
+                    function addToCart(product) {
+    // Load existing cart from localStorage
+    let storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    // Check if the product is already in the cart
+    const exists = storedCart.find(item => item.id === product.id);
+    if (!exists) {
+        storedCart.push(product);
+        localStorage.setItem("cart", JSON.stringify(storedCart));
+    }
+
+    // Update in-memory cart and cart count UI
+    cart = storedCart;
+    document.getElementById("cartCount").textContent = cart.length;
+}
+
+
+                    // Delete button
+                    const deleteBtn = document.createElement("button");
+                    deleteBtn.textContent = "Delete";
+                    deleteBtn.onclick = () => deleteProduct(productDiv);
+                    buttonsDiv.appendChild(deleteBtn);
+
+                    productDiv.appendChild(buttonsDiv);
+                    document.getElementById("product-list").appendChild(productDiv);
+                });
+            } catch (error) {
+                console.error("Error fetching or displaying products:", error);
+            }
+        }
+
+        function addToCart(product) {
+            cart.push(product);
+            document.getElementById("cartCount").textContent = cart.length;
+        }
+
+        function deleteProduct(productDiv) {
+            productDiv.remove();
+        }
+
+        data();
+        // Load cart from localStorage on page load
+window.addEventListener("DOMContentLoaded", () => {
+    let storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    cart = storedCart;
+    document.getElementById("cartCount").textContent = cart.length;
+});
+
+    </script>
+</body>
+</html>
+
+    
