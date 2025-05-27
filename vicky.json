@@ -4,177 +4,216 @@
       "id": 1,
       "title": "T-Shirt",
       "description": "Comfortable cotton t-shirt",
-      "image":"https://maxzoneclothing.com/cdn/shop/files/66.jpg?v=1739513037&width=990",
+      "image":"https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?cs=srgb&dl=pexels-godisable-jacob-226636-949670.jpg&fm=jpg&_gl=1*1vx6gqs*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQ5Ny4wLjAuMA..",
       "price": 1999,
-      "likes": 15
+      "likes": 15,
+      "category":"clothes"
+
     },
   
-   {
+    {
       "id": 2,
       "title": "",
       "description": "Stylish ",
       "image": "https://images.pexels.com/photos/794064/pexels-photo-794064.jpeg?cs=srgb&dl=pexels-godisable-jacob-226636-794064.jpg&fm=jpg&_gl=1*14bc5cu*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjAuMTc0NDU1MjI5OC4wLjAuMA..",
       "price": 599,
-      "likes": 22
+      "likes": 22,
+      "category":"clothes"
+
+      
+
     },
     {
       "id": 3,
-      "title": "Jeans",
-      "description": "Classic blue denim jeans",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ZzqxsJqXbaWgLkGI6aJrOgHaJ5%26pid%3DApi&sp=1744391128T2bb96d19054d63d88bc4cf300512826a401b10cdcb75213ad6d0b71fe2547941",
+      "title": "Dress ",
+      "description": "Dress",
+      "image": "https://images.pexels.com/photos/3050943/pexels-photo-3050943.jpeg?cs=srgb&dl=pexels-vitoriasantos-3050943.jpg&fm=jpg&_gl=1*gasioe*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
       "price": 399,
-      "likes": 18
+      "likes": 18,
+      "category":"clothes"
+
+    },
+    {
+      "id": 4,
+      "title": "Cap",
+      "description": "Cool baseball cap",
+      "image": "https://downloadscdn6.freepik.com/114579/32/31053.jpg?filename=delivery-woman-red-uniform-holding-colorful-caps.jpg&token=exp=1744560288~hmac=f4861efb975992e5d1e8aff0546f71dc&filename=31053.jpg",
+      "price": 199,
+      "likes": 7,
+      "category":"clothes"
+
     },
     {
       "id": 5,
-      "title": "Cap",
-      "description": "Cool baseball cap",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.y8r2fP3-QoH2knLHlhmIvgHaGB%26cb%3Diwc%26pid%3DApi&sp=1744391703T7e7fa96cdc22c7f11d1ab326c0e50095f28cf8a067e3e155cbd71b8158249092",
-      "price": 199,
-      "likes": 7
+      "title": "dress",
+      "description": "Durable travel backpack",
+      "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?cs=srgb&dl=pexels-jmendezrf-1536619.jpg&fm=jpg&_gl=1*14bc5cu*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjAuMTc0NDU1MjI5OC4wLjAuMA..",
+      "price": 499,
+      "likes": 33,
+      "category":"clothes"
+
     },
     {
       "id": 6,
-      "title": "dress",
-      "description": "Durable travel backpack",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=http%3A%2F%2Fwww.thefashionisto.com%2Fwp-content%2Fuploads%2F2016%2F05%2FZara-Men-2016-Summer-Tailoring-006-800x1060.jpg&sp=1744391128Te5b289e656c60044efb33980c611dae00200c68985a731aa0c314f6a7826d807",
-      "price": 499,
-      "likes": 33
+      "title": "couples dress",
+      "description": "Minimalist wristwatch",
+      "image": "https://images.pexels.com/photos/1760699/pexels-photo-1760699.jpeg?cs=srgb&dl=pexels-athena-1760699.jpg&fm=jpg&_gl=1*gasioe*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
+      "price": 999,
+      "likes": 45,
+      "category":"clothes"
+
     },
     {
       "id": 7,
-      "title": "couples dress",
-      "description": "Minimalist wristwatch",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.BEETu028OoHXbMjaNUfedwHaEo%26pid%3DApi&sp=1744391732Te999a686aaf5023569fb77fe113e207cd210efd3d8534ae72a4e8ba7add0cb7b",
-      "price": 999,
-      "likes": 45
+      "title": "Dress",
+      "description": "UV-protective stylish shades",
+      "image": "https://images.pexels.com/photos/852860/pexels-photo-852860.jpeg?cs=srgb&dl=pexels-postiglioni-852860.jpg&fm=jpg&_gl=1*gasioe*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
+      "price": 249,
+      "likes": 29,
+      "category":"clothes"
+
     },
     {
       "id": 8,
       "title": "Dress",
-      "description": "UV-protective stylish shades",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftheadultman.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fmens-fashion-from-a-female-perspective-1.jpg&sp=1744391732T6386a87799a897abca68bb1b25a78dee04525a618338d70c5b5d997d6cd3ed0f",
-      "price": 249,
-      "likes": 29
+      "description": "Wool knit sweater",
+      "image": "https://images.pexels.com/photos/1805411/pexels-photo-1805411.jpeg?cs=srgb&dl=pexels-criativithy-894081-1805411.jpg&fm=jpg&_gl=1*gasioe*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
+      "price": 999,
+      "likes": 16,
+      "category":"clothes"
+
     },
     {
       "id": 9,
-      "title": "Sweater",
-      "description": "Wool knit sweater",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.i26SAgaRCjxKYvhGBgTxJwHaDt%26pid%3DApi&sp=1744391830T4c83b44d36c53a252144cd9ef34412e207faf5c56c0af13b3ed2d4cb107f21bf",
-      "price": 999,
-      "likes": 16
+      "title": "Jacket",
+      "description": "Windbreaker outdoor jacket",
+      "image": "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?cs=srgb&dl=pexels-olly-837140.jpg&fm=jpg&_gl=1*1vx6gqs*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQ5Ny4wLjAuMA..",
+      "price": 699,
+      "likes": 25,
+      "category":"clothes"
+
     },
     {
       "id": 10,
-      "title": "Jacket",
-      "description": "Windbreaker outdoor jacket",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.8RWbw4WFPjNHDajj9m82EwHaIh%26pid%3DApi&sp=1744391882T64c4dbda23ebe98a1e4df3296c88e2f9c08608c1b409a8a1a1a203d9ffecf7c9",
-      "price": 699,
-      "likes": 25
+      "title": "couples dress",
+      "description": "Pack of cotton socks",
+      "image": "https://images.pexels.com/photos/4754648/pexels-photo-4754648.jpeg?cs=srgb&dl=pexels-viscoseillusion-4754648.jpg&fm=jpg&_gl=1*1pfll8p*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
+      "price": 9999,
+      "likes": 5,
+      "category":"clothes"
+
     },
     {
       "id": 11,
-      "title": "couples dress",
-      "description": "Pack of cotton socks",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.3SeYIkgagqzdIecej_spOgHaHa%26pid%3DApi&sp=1744391965T371bcce0074b8464963fb40193af7201e668c21b8802716d42ee152bb14fc559",
-      "price": 9999,
-      "likes": 5
+      "title": "Beanie",
+      "description": "Knitted winter beanie",
+      "image": "https://images.pexels.com/photos/2881785/pexels-photo-2881785.jpeg?cs=srgb&dl=pexels-marco-dng-2881785.jpg&fm=jpg&_gl=1*gasioe*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
+      "price": 199,
+      "likes": 8,
+      "category":"clothes"
+
     },
     {
       "id": 12,
-      "title": "Beanie",
-      "description": "Knitted winter beanie",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FnTPKB4mpPWE%2Fmaxresdefault.jpg&sp=1744391965T7e3b711f0ae9554f6c861258d6f3b85a538aac91d8fdf6345438ce53032ffd6e",
-      "price": 199,
-      "likes": 8
+      "title": "Gloves",
+      "description": "Thermal hand gloves",
+      "image": "https://images.pexels.com/photos/3907595/pexels-photo-3907595.jpeg?cs=srgb&dl=pexels-k3ithvision-3907595.jpg&fm=jpg&_gl=1*1pfll8p*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
+      "price": 13.99,
+      "likes": 9,
+      "category":"clothes"
+
     },
     {
       "id": 13,
-      "title": "Gloves",
-      "description": "Thermal hand gloves",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F71%2F2e%2F5f%2F712e5fc4fcaaa76c95af008926a00014.jpg&sp=1744391882Te39af7fa288023fa6d0009a56ad00417911abb393fc38df356544c06b9006d30",
-      "price": 13.99,
-      "likes": 9
+      "title": "dress",
+      "description": "dress for women",
+      "image": "https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg?cs=srgb&dl=pexels-alipazani-2613260.jpg&fm=jpg&_gl=1*1pfll8p*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
+      "price": 19.99,
+      "likes": 6,
+      "category":"clothes"
+
     },
     {
       "id": 14,
-      "title": "dress",
-      "description": "dress for women",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.qYGQEJFEbAhn5B5SUpmB8gHaIh%26pid%3DApi&sp=1744392161T76ba2f29d2d3af8ee8e825296a7004868da35cc3606ee8224d84480ebe5ee607",
-      "price": 19.99,
-      "likes": 6
-    },
-    {
-      "id": 15,
       "title": "formal dress",
       "description": "formal",
-      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Oxu3rrdwRo5ReuZ4b3pafQHaNK%26pid%3DApi&sp=1744392445T7d7418747f9a6d7cd1bbb7067bf5768577f249719f3fada0e60e453af883d104",
+      "image": "https://images.pexels.com/photos/9154696/pexels-photo-9154696.jpeg?cs=srgb&dl=pexels-cottonbro-9154696.jpg&fm=jpg&_gl=1*1dg8758*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjMzMy4wLjAuMA..",
       "price": 999,
-      "likes": 10
+      "likes": 10,
+      "category":"clothes"
+
     },
     
       {
-        "id": 31,
-        "title": "Abstract Earth Tones Case",
+        "id": 15,
+        "title": "colur dress Tones",
         "description": "A modern abstract phone case featuring earthy tones, shapes, and line art.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.xBUTKnNM8iJZjb-nX8jGjgHaJh%26pid%3DApi&sp=1744395091Tcd2e3197a6165a432001ac07008f2879427dec91647c763cc93df78f30677797",
-        "price": 21.99
+        "image": "https://images.pexels.com/photos/2772535/pexels-photo-2772535.jpeg?cs=srgb&dl=pexels-tusnin-das-185870-2772535.jpg&fm=jpg&_gl=1*1pfll8p*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDU1MjI5OC4xLjEuMTc0NDU1MjQwMy4wLjAuMA..",
+        "price": 21.99,
+      "category":"clothes"
+
       },
+     
       {
         "id": 16,
         "title": "Geometric Fade Phone Case",
-        "description": "Fading geometric patterns with subtle orange and black tones.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.bI80Xi3kRjDOCHm0uWhezwHaHa%26pid%3DApi&sp=1744394358Te0170fa6773e5deaf90563b8e373749e8ae3bbea97237dfa6cdcfc2936b0cf6f",
-        "price": 22.49
+        "description": "Fading geometric patterns with subtle orange and black cases.",
+        "image": "https://images.pexels.com/photos/955790/pexels-photo-955790.jpeg?cs=srgb&dl=pexels-sarah-trummer-155385-955790.jpg&fm=jpg&_gl=1*1mffgb8*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjAuMTc0NDk2ODM1MC4wLjAuMA..",
+        "price": 22.49,
+      "category":"phoneCases"
+
       },
       {
         "id": 17,
         "title": "Color Blocks Case",
-        "description": "Bold color blocks in red, orange, and tan with artistic flair.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DjdWw3to_xRaVWHZgjmj4QAAAA%26pid%3DApi&sp=1744394358T9c2c6680237c789bb8ca579617cc519681c91f0966f095a76b0f6c1e7eb181af",
-        "price": 20.00
+        "description": "",
+        "image":"https://images.pexels.com/photos/16435202/pexels-photo-16435202.jpeg?cs=srgb&dl=pexels-introspectivedsgn-16435202.jpg&fm=jpg&_gl=1*zb62sw*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODc1Mi4wLjAuMA..",
+        "price": 20.00,
+      "category":"phoneCases"
+
       },
       {
         "id": 18,
         "title": "Face Sketch Abstract Case",
         "description": "Minimalistic abstract line face sketch with modern art palette.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.IXYTfi4j_ba1f0PLSrumbAHaHa%26pid%3DApi&sp=1744394358T77745d4d121bbb26e7716e19321af19b2e1bf7d0ccabc1faab980400ef4915f4",
-        "price": 23.75
+        "image": "https://images.pexels.com/photos/8178180/pexels-photo-8178180.jpeg?cs=srgb&dl=pexels-immortelleana-8178180.jpg&fm=jpg&_gl=1*o4ylll*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODcxNi4wLjAuMA..",
+        "price": 23.75,
+      "category":"phoneCases"
+
       },
       {
         "id": 19,
         "title": "Warm Minimal Case",
         "description": "Aesthetic abstract minimal art in warm earthy hues.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qHk_F76bhXjkqK_alM1GXQAAAA%26pid%3DApi&sp=1744394358T39f86332c4db57c44b4fc5d911c550256aab344d38573207cb8abc2f6b3724ef",
+        "image": "https://images.pexels.com/photos/8473458/pexels-photo-8473458.jpeg?cs=srgb&dl=pexels-chuck-8473458.jpg&fm=jpg&_gl=1*o4ylll*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODcxNi4wLjAuMA..",
         "price": 18.99
       },
       {
         "id": 20,
         "title": "Soft Shapes Abstract Case",
         "description": "Rounded abstract forms layered with organic patterns.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.U57bkhUPrdjj-REoE9eBaQHaJ4%26pid%3DApi&sp=1744395091Te804701e3fa7a4fbea2f79d7f7ce101ac9b0e12b0de92da710cfcef31ba8deb4",
+        "image": "https://images.pexels.com/photos/27569268/pexels-photo-27569268.jpeg?cs=srgb&dl=pexels-omar-ramadan-1739260-27569268.jpg&fm=jpg&_gl=1*o4ylll*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODcxNi4wLjAuMA..",
         "price": 21.00
       },
       {
         "id": 21,
         "title": "Retro Sunset Geometry Case",
         "description": "Retro-inspired sunset and geometry mix with a vintage vibe.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Es2J27H93cVgWYZBaxKcagHaHa%26pid%3DApi&sp=1744395091T2adb28174416f03c585132ef46211c2df3036469b9951b8ffb6b470b969f7d86",
+        "image": "https://images.pexels.com/photos/17129633/pexels-photo-17129633.jpeg?cs=srgb&dl=pexels-mineiamartins-17129633.jpg&fm=jpg&_gl=1*5cbrn2*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODY0Mi4wLjAuMA..",
         "price": 19.50
       },
       {
         "id": 22,
         "title": "Bold Minimal Art Case",
         "description": "Strong color contrasts and clean lines for a bold look.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.DmNOLWW8pcgfHctBHY8lTgHaHa%26pid%3DApi&sp=1744395091T78d1a587912dea66ef32c77db0c61790ebdd2fe0e97ff690aede222d7a63a4a4",
+        "image": "https://images.pexels.com/photos/18931127/pexels-photo-18931127.jpeg?cs=srgb&dl=pexels-ann-bugaichuk-371879753-18931127.jpg&fm=jpg&_gl=1*5cbrn2*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODY0Mi4wLjAuMA..",
         "price": 199
       },
       {
         "id": 23,
         "title": "Terracotta Grid Case",
         "description": "Terracotta shades over a soft geometric grid layout.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vHsypCakdhth5_SuFKtX7wHaGn%26pid%3DApi&sp=1744395091T8ea915230608ac2324954281497bc2694e9d7a5297ee8d2d076db13b86540c5e",
+        "image": "https://images.pexels.com/photos/20419410/pexels-photo-20419410.jpeg?cs=srgb&dl=pexels-lisettkruusimae-20419410.jpg&fm=jpg&_gl=1*x5gub8*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODY0Mi4wLjAuMA..",
         "price": 299
       },
       
@@ -182,52 +221,188 @@
         "id": 24,
         "title": "Neutral Tones Abstract Case",
         "description": "A calming palette of neutrals in artistic brush strokes.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.A47xrzCi4PKH3fDbvEuhngHaIj%26pid%3DApi&sp=1744395091T69196f4f6e93dc05e3d7e6a238632fc0a6c5db5408a34cf6ef58ff5e48b522d2",
+        "image": "https://images.pexels.com/photos/12359130/pexels-photo-12359130.jpeg?cs=srgb&dl=pexels-onbab-12359130.jpg&fm=jpg&_gl=1*x5gub8*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODY0Mi4wLjAuMA..",
         "price": 18.50
       },
       {
         "id": 25,
         "title": "Muted Color Patch Case",
         "description": "Soft, muted color patches arranged in an abstract pattern.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.niyviVnoz91d5UoBGV47IAAAAA%26pid%3DApi&sp=1744395091T218629e2c9653fb993aec074ead285ad7d3b03bf69ea7ca0c629139a014ed412",
+        "image": "https://images.pexels.com/photos/9558930/pexels-photo-9558930.jpeg?cs=srgb&dl=pexels-mart-production-9558930.jpg&fm=jpg&_gl=1*1qc2ah3*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODQ4MC4wLjAuMA..",
         "price": 19.99
       },
       {
         "id": 26,
         "title": "Leafy Line Art Case",
         "description": "Line-drawn leaves over blocks of rust and clay colors.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zsJWYnP5vzpBmwf2z5NPFAHaHa%26pid%3DApi&sp=1744395091T7ca31036259cd0718cc51c85b9d61b730b534714ea0a712a92eacffdae6a09b1",
-        "price": 21.25
+        "image": "https://images.pexels.com/photos/12810075/pexels-photo-12810075.jpeg?cs=srgb&dl=pexels-atahandemir-12810075.jpg&fm=jpg&_gl=1*1qc2ah3*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODQ4MC4wLjAuMA..",
+        "price": 21.25,
+      "category":"phoneCases"
+
       },
       {
         "id": 27,
         "title": "Artistic Fusion Case",
         "description": "A blend of line sketches, abstract shapes, and warm tones.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.-jPNkDJm_BRl0ibG7Uhb_wDMEy%26pid%3DApi&sp=1744395091T8d473a4ae8282011417c956f775dc8e4116372a7a482da7ee48fe344b7b921c7",
-        "price": 22.99
+        "image": "https://images.pexels.com/photos/6968891/pexels-photo-6968891.jpeg?cs=srgb&dl=pexels-ivan-samkov-6968891.jpg&fm=jpg&_gl=1*wo8lur*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk2ODQ4MC4wLjAuMA..",
+        "price": 22.99,
+      "category":"phoneCases"
+
       },
       {
         "id": 28,
         "title": "Desert Dream Case",
         "description": "Abstract desert landscape inspiration with soft waves.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.15-EhpBRnzN0i6SCQstDIQHaJQ%26pid%3DApi&sp=1744395091T3936ce9060c3234dc64668e4b730260138aa42444a2478eb4e2d1cdbc6dc0300",
-        "price": 20.99
+        "image": "https://images.pexels.com/photos/27915650/pexels-photo-27915650.jpeg?cs=srgb&dl=pexels-skylake-27915650.jpg&fm=jpg&_gl=1*7ggl40*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjAuMTc0NDk2ODM1MC4wLjAuMA..",
+        "price": 20.99,
+      "category":"phoneCases"
+
       },
       {
         "id": 29,
         "title": "Shapes & Lines Modern Case",
         "description": "Black canvas covered in colorful modern shapes and squiggles.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qF8Nt2JX8-bU1lNZli9Y-wHaHa%26pid%3DApi&sp=1744395091T1ab8e0a895a0e9394403cd00643c9b348e8d39a1fd7f023fbcc25a397a4a5b9e",
-        "price": 24.50
+        "image":"https://images.pexels.com/photos/31605450/pexels-photo-31605450.jpeg?cs=srgb&dl=pexels-schena-maria-karlec-885328-31605450.jpg&fm=jpg&_gl=1*7ggl40*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjAuMTc0NDk2ODM1MC4wLjAuMA..",
+        "price": 24.50,
+      "category":"phoneCases"
+
       },
       {
         "id": 30,
         "title": "Elegant Doodles Case",
         "description": "A smooth composition of elegant doodles and warm abstract shapes.",
-        "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.S0vVJBDpui7BHqVx9_JFQwAAAA%26pid%3DApi&sp=1744395091Ta2b17ea01f5250d8cbfb39f7ce9818d0e13e68728395f097426210a17f35b6d1",
-        "price": 23.49
-      }
-    ]
+        "image": "https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?cs=srgb&dl=pexels-bertellifotografia-799443.jpg&fm=jpg&_gl=1*7ggl40*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjAuMTc0NDk2ODM1MC4wLjAuMA..",
+        "price": 23.49,
+      "category":"phoneCases"
+
+      },
+      
+        {
+          "id": 31,
+          "title": "Mystic Forest",
+          "image": "https://images.pexels.com/photos/159862/art-school-of-athens-raphael-italian-painter-fresco-159862.jpeg?cs=srgb&dl=pexels-pixabay-159862.jpg&fm=jpg&_gl=1*1c577ab*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MDc2MC4wLjAuMA..",
+          "price": 28.99,
+      "category":"phoneCases"
+
+        },
+        
+          {
+            "id": 31,
+            "title": "Mystic Forest",
+            "image": "https://images.pexels.com/photos/34133/pexels-photo.jpg?cs=srgb&dl=pexels-donaldtong94-34133.jpg&fm=jpg&_gl=1*px40zf*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTU3NS4wLjAuMA..",
+            "price": 28.99,
+      "category":"phoneCases"
+
+          },
+          {
+            "id": 32,
+            "title": "Desert Mirage",
+            "image": "https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?cs=srgb&dl=pexels-shonejai-445753-1227497.jpg&fm=jpg&_gl=1*16cajyz*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTQzMS4wLjAuMA..",
+            "price": 32.50,
+      "category":"phoneCases"
+
+          },
+          {
+            "id": 33,
+            "title": "Graffiti Alley",
+            "image": "https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?cs=srgb&dl=pexels-shonejai-445753-1227497.jpg&fm=jpg&_gl=1*16cajyz*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTQzMS4wLjAuMA..",
+            "price": 21.00,
+      "category":"phoneCases"
+
+          },
+          {
+            "id": 34,
+            "title": "Dreamscape",
+            "image": "https://images.pexels.com/photos/595747/pexels-photo-595747.jpeg?cs=srgb&dl=pexels-luizclas-170497-595747.jpg&fm=jpg&_gl=1*1sic61a*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTQzMS4wLjAuMA..",
+            "price": 35.75,
+      "category":"phoneCases"
+
+          },
+          {
+            "id": 35,
+            "title": "Floral Burst",
+            "image": "https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?cs=srgb&dl=pexels-eberhardgross-2086361.jpg&fm=jpg&_gl=1*1sic61a*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTQzMS4wLjAuMA..",
+            "price": 26.49,
+      "category":"phoneCases"
+
+          },
+          {
+            "id": 36,
+            "title": "Mountain Majesty",
+            "image": "https://images.pexels.com/photos/166277/pexels-photo-166277.jpeg?cs=srgb&dl=pexels-suvan-chowdhury-37305-166277.jpg&fm=jpg&_gl=1*1sic61a*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTQzMS4wLjAuMA..",
+            "price": 39.99,
+      "category":"arts"
+
+          },
+          {
+            "id": 37,
+            "title": "Neon Night",
+            "image": "https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?cs=srgb&dl=pexels-3motional-studio-407102-1081685.jpg&fm=jpg&_gl=1*1sic61a*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTQzMS4wLjAuMA..",
+            "price": 29.25,
+      "category":"arts"
+
+          },
+          {
+            "id": 38,
+            "title": "Ocean Serenity",
+            "image": "https://images.pexels.com/photos/159862/art-school-of-athens-raphael-italian-painter-fresco-159862.jpeg?cs=srgb&dl=pexels-pixabay-159862.jpg&fm=jpg&_gl=1*1c577ab*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MDc2MC4wLjAuMA..",
+            "price": 27.50,
+      "category":"arts"
+
+          },
+          {
+            "id": 39,
+            "title": "Galaxy Glimpse",
+            "image": "https://images.pexels.com/photos/545008/pexels-photo-545008.jpeg?cs=srgb&dl=pexels-burst-545008.jpg&fm=jpg&_gl=1*t9midm*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MjcyNC4wLjAuMA..",
+            "price": 33.00,
+      "category":"arts"
+
+          },
+          {
+            "id": 40,
+            "title": "Vintage Vibes",
+            "image": "https://images.pexels.com/photos/955733/pexels-photo-955733.jpeg?cs=srgb&dl=pexels-isaw-company-66472-955733.jpg&fm=jpg&_gl=1*1uworkl*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTU3NS4wLjAuMA..",
+            "price": 22.90,
+      "category":"arts"
+
+          },
+          {
+            "id": 41,
+            "title": "Surreal Sky",
+            "image": "https://images.pexels.com/photos/1154723/pexels-photo-1154723.jpeg?cs=srgb&dl=pexels-rdgraphics-1154723.jpg&fm=jpg&_gl=1*zux05l*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTUzMy4wLjAuMA..",
+            "price": 31,
+      "category":"arts"
+
+            
+          },
+          {
+            "id": 42,
+            "title": "Jungle Spirit",
+            "image": "https://images.pexels.com/photos/1262304/pexels-photo-1262304.jpeg?cs=srgb&dl=pexels-rakicevic-nenad-233369-1262304.jpg&fm=jpg&_gl=1*1rjoes3*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTUzMy4wLjAuMA..",
+            "price": 34.75,
+      "category":"arts"
+
+          },
+          {
+            "id": 43,
+            "title": "Fire & Ice",
+            "image": "https://images.pexels.com/photos/236171/pexels-photo-236171.jpeg?cs=srgb&dl=pexels-pixabay-236171.jpg&fm=jpg&_gl=1*16cajyz*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTQzMS4wLjAuMA..",
+            "price": 37.60,
+      "category":"arts"
+
+          },
+    
+          {
+            "id": 44,
+            "title": "Monochrome Mood",
+            "image": "https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?cs=srgb&dl=pexels-hikaique-598917.jpg&fm=jpg&_gl=1*16cajyz*_ga*MTk1MDAyMzUyOS4xNzQ0NTUyMjk5*_ga_8JE65Q40S6*MTc0NDk2ODM1MC40LjEuMTc0NDk3MTQzMS4wLjAuMA..",
+            "price": 25.40,
+      "category":"arts"
+
+          }
+        ]
+             
+    
     
      
       
